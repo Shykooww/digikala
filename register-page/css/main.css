@@ -1,0 +1,122 @@
+@font-face {
+  font-family: vazir;
+  src: url(../../fonts/Vazir.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: vazir;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  width: 400px;
+  height: 445px;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  padding: 32px;
+
+  .logo {
+    width: 100px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h1-first {
+    height: 40px;
+    width: 334px;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 28px;
+  }
+
+  .p-r {
+    display: flex;
+    align-items: center;
+    width: 334px;
+    height: 26px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(63, 64, 100);
+  }
+  .p-r1 {
+    margin-top: 16px;
+  }
+  .p-r2 {
+    margin-bottom: 16px;
+  }
+  .p-r3 {
+    width: 334px;
+
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(63, 64, 100);
+  }
+
+  .a-r {
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(0, 142, 178);
+    text-decoration: none;
+  }
+
+  .box-first {
+    width: 334px;
+    padding: 0 8px;
+    margin-bottom: 33px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #00d9ff;
+    .input {
+      all: unset;
+      width: 316px;
+      height: inherit;
+      padding: 8px;
+    }
+  }
+
+  .box-second {
+    all: unset;
+    cursor: pointer;
+    width: 334px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ef4056;
+    .submit {
+      font-family: var(--font-family);
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+}
