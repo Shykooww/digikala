@@ -1,0 +1,120 @@
+.bests-slider {
+  width: 100%;
+  height: 440px;
+  background-color: #ef3b51;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .swiper-image {
+      width: 250px;
+      height: 380px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      .img1 {
+        width: 120px;
+        height: 120px;
+      }
+      .img2 {
+        width: 145px;
+        height: 145px;
+      }
+    }
+    .swiper-slide {
+      width: 200px;
+      height: 380px;
+      background-color: white;
+      border-radius: 9px;
+      margin-top: 30px;
+      justify-content: center;
+      padding: 7px;
+      .swiper-slide-img {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 13px 7px 0 0;
+      }
+      .swiper-slide-product {
+        width: 100%;
+        height: 150px;
+        /* background-color: black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .p-p {
+        font-family: vazir;
+        font-size: 13px;
+        margin-top: 10px;
+      }
+      .send {
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-top: 10px;
+        p {
+          font-family: vazir;
+          font-size: 10px;
+          margin-right: 5px;
+        }
+      }
+      .off {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        p {
+          width: 35px;
+          height: 25px;
+          background-color: #d32f2f;
+          color: white;
+          border-radius: 9px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: vazir;
+          font-size: 15px;
+        }
+        h3 {
+          font-family: vazir;
+          font-size: 14px;
+        }
+      }
+      .sell {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-top: 10px;
+        p {
+          font-family: vazir;
+          font-size: 12px;
+          text-decoration: line-through;
+          color: lightgray;
+        }
+      }
+    }
+  }
+}
+.transparent {
+  background-color: transparent !important;
+}
+.margin-top {
+  margin-top: 35px !important;
+}

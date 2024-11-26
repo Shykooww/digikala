@@ -1,0 +1,117 @@
+.amazing-day {
+  width: 100%;
+  height: 300px;
+  background-color: #e4123c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .swiper-slide {
+      width: 615px;
+      height: 260px;
+      background-color: white;
+      display: flex;
+      border-radius: 10px;
+      margin-top: 20px;
+      .swiper-slide-right {
+        width: 40%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .swiper-slide-left {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        .slide-p {
+          width: 100%;
+          height: 20px;
+          font-family: vazir;
+          font-size: 12px;
+          margin-top: 60px;
+        }
+        .slide-color {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          align-items: center;
+        }
+        .slide-color-circle {
+          width: 15px;
+          height: 15px;
+          background-color: rgb(180, 180, 180);
+          border-radius: 50%;
+        }
+        p {
+          font-family: vazir;
+          font-size: 12px;
+          margin-right: 5px;
+        }
+        .number {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .sell {
+            width: 40px;
+            height: 25px;
+            background-color: #e4123c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            p {
+              font-family: vazir;
+              font-size: 15px;
+              color: white;
+            }
+          }
+          .price {
+            p {
+              font-family: vazir;
+              font-size: 17px;
+              margin-left: 10px;
+            }
+          }
+        }
+        .off {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          p {
+            font-family: vazir;
+            font-size: 12px;
+            text-decoration: line-through;
+            color: lightgray;
+            margin-bottom: 40px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.bg-orange {
+  background-color: #c99212 !important;
+}
+.bg-gray {
+  background-color: #9e9e9e !important;
+}
+.bg-noghre {
+  background-color: #dedede !important;
+}
