@@ -28,7 +28,7 @@
     width: 100%;
     height: inherit;
     .box-top {
-      font-family: var(--font-family);
+      font-family: vazir;
       font-size: 16px;
       font-weight: 700;
       line-height: 34px;
@@ -59,7 +59,7 @@
           padding: 16px 0px;
 
           .one-right {
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 19px;
             font-weight: 700;
             line-height: 40px;
@@ -67,7 +67,7 @@
           }
           .one-left {
             cursor: pointer;
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 12px;
             font-weight: 700;
             line-height: 26px;
@@ -85,7 +85,7 @@
             border-bottom: 1px solid #f0f0f1;
             padding: 12px 0px;
             .two-right {
-              font-family: var(--font-family);
+              font-family: vazir;
               font-size: 15px;
               font-weight: 700;
               line-height: 32px;
@@ -117,7 +117,7 @@
                 column-gap: 5px;
 
                 .right {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 15px;
                   font-weight: 700;
                   line-height: 32px;
@@ -131,7 +131,7 @@
                 }
               }
               .left {
-                font-family: var(--font-family);
+                font-family: vazir;
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 26px;
@@ -152,7 +152,7 @@
             justify-content: center;
             align-items: center;
             column-gap: 3px;
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 15px;
             font-weight: 700;
             line-height: 32px;
@@ -175,7 +175,7 @@
             justify-content: center;
             align-items: center;
             column-gap: 3px;
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 15px;
             font-weight: 700;
             line-height: 32px;
@@ -202,7 +202,7 @@
               justify-content: center;
               align-items: center;
               column-gap: 3px;
-              font-family: var(--font-family);
+              font-family: vazir;
               font-size: 15px;
               font-weight: 700;
               line-height: 32px;
@@ -214,7 +214,7 @@
             }
           }
           .five-p {
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 12px;
             font-weight: 400;
             line-height: 30px;
@@ -232,7 +232,7 @@
             border-bottom: 1px solid #f0f0f1;
             padding: 12px 0px;
             .six-right {
-              font-family: var(--font-family);
+              font-family: vazir;
               font-size: 15px;
               font-weight: 700;
               line-height: 32px;
@@ -255,7 +255,7 @@
               justify-content: center;
               align-items: center;
               .w {
-                font-family: var(--font-family);
+                font-family: vazir;
                 font-size: 15px;
                 font-weight: 400;
                 line-height: 32px;
@@ -266,7 +266,7 @@
                 width: 201px;
                 border-bottom: 1px solid #e0e0e2;
                 text-align: center;
-                font-family: var(--font-family);
+                font-family: vazir;
                 font-size: 26px;
                 font-weight: 800;
                 line-height: 55px;
@@ -307,13 +307,13 @@
                 justify-content: space-between;
                 align-items: center;
                 .low {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 10px;
                   font-weight: 400;
                   color: rgb(153, 153, 153);
                 }
                 .high {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 10px;
                   font-weight: 400;
                   color: rgb(153, 153, 153);
@@ -334,7 +334,7 @@
             justify-content: center;
             align-items: center;
             column-gap: 3px;
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 15px;
             font-weight: 700;
             line-height: 32px;
@@ -352,7 +352,7 @@
             align-items: center;
             padding: 12px 0px;
             .eight-right {
-              font-family: var(--font-family);
+              font-family: vazir;
               font-size: 15px;
               font-weight: 700;
               line-height: 32px;
@@ -379,7 +379,7 @@
               border-bottom: 1px solid #f0f0f1;
               column-gap: 5px;
               .right {
-                font-family: var(--font-family);
+                font-family: vazir;
                 font-size: 15px;
                 font-weight: 700;
                 line-height: 32px;
@@ -417,7 +417,7 @@
               height: 24px;
             }
             .cat-sp {
-              font-family: var(--font-family);
+              font-family: vazir;
               font-size: 12px;
               font-weight: 700;
               line-height: 26px;
@@ -427,7 +427,7 @@
           }
 
           .one-sp {
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 12px;
             font-weight: 400;
             line-height: 26px;
@@ -439,7 +439,7 @@
           }
 
           .one-last {
-            font-family: var(--font-family);
+            font-family: vazir;
             font-size: 12px;
             font-weight: 400;
             line-height: 26px;
@@ -490,7 +490,7 @@
             }
             .three {
               margin-top: 34px;
-              font-family: var(--font-family);
+              font-family: vazir;
               font-size: 12px;
               font-weight: 700;
               line-height: 26px;
@@ -509,7 +509,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-family: var(--font-family);
+                font-family: vazir;
                 font-size: 11px;
                 font-weight: 400;
                 line-height: 26px;
@@ -530,7 +530,7 @@
                 align-items: center;
                 column-gap: 5px;
                 .left-sp {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 12px;
                   font-weight: 400;
                   line-height: 26px;
@@ -547,7 +547,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-family: var(--font-family);
+                font-family: vazir;
                 font-size: 11px;
                 font-weight: 400;
                 line-height: 26px;
@@ -572,7 +572,7 @@
                   height: 16px;
                 }
                 .left-sp {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 12px;
                   font-weight: 400;
                   line-height: 26px;
@@ -594,7 +594,7 @@
                 justify-content: center;
                 align-items: center;
                 .right-sp {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 12px;
                   font-weight: 700;
                   line-height: 24px;
@@ -607,7 +607,7 @@
                   height: 16px;
                 }
                 .left-sp {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 16px;
                   font-weight: 700;
                   line-height: 34px;
@@ -616,7 +616,7 @@
               }
             }
             .six {
-              font-family: var(--font-family);
+              font-family: vazir;
               font-size: 12px;
               font-weight: 400;
               line-height: 26px;
@@ -767,7 +767,7 @@
               padding-top: 4px;
               .eight-left {
                 color: rgb(239, 57, 78);
-                font-family: var(--font-family);
+                font-family: vazir;
                 font-size: 12px;
                 font-weight: 700;
                 line-height: 26px;
@@ -775,12 +775,12 @@
               .eight-right {
                 .right-sp1 {
                   color: rgb(239, 57, 78);
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 10px;
                   font-weight: 400;
                 }
                 .right-sp2 {
-                  font-family: var(--font-family);
+                  font-family: vazir;
                   font-size: 11px;
                   font-weight: 400;
                   line-height: 24px;
